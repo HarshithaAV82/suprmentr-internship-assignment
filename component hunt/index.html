@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Netflix Components</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo">NETFLIX</h1>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">My List</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Featured Movies</h2>
+      <button onclick="playMovie()">Play</button>
+      <button onclick="moreInfo()">More Info</button>
+    </section>
+
+    <section class="movies">
+      <h2>Trending Now</h2>
+
+      <div class="movie-row">
+        <img src="https://picsum.photos/200/300?random=1" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=2" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=3" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=4" class="poster" />
+      </div>
+
+      <h2>Popular on Netflix</h2>
+
+      <div class="movie-row">
+        <img src="https://picsum.photos/200/300?random=5" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=6" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=7" class="poster" />
+
+        <img src="https://picsum.photos/200/300?random=8" class="poster" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Help Center</p>
+      <p>Terms of Use</p>
+      <p>Privacy Policy</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
