@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshitha A V - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .name {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .contact-info span {
+            margin: 0 15px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #2980b9;
+        }
+
+        .section-content {
+            padding: 0 10px;
+        }
+
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .tech-item {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #3498db;
+            transition: transform 0.3s ease;
+        }
+
+        .tech-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .education-item, .project-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #27ae60;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .item-date {
+            color: #7f8c8d;
+            font-size: 0.95em;
+            margin-bottom: 8px;
+        }
+
+        .item-details {
+            color: #555;
+            margin-left: 15px;
+        }
+
+        .project-item {
+            border-left-color: #e74c3c;
+        }
+
+        .achievement {
+            background: #fff3cd;
+            padding: 12px;
+            border-radius: 5px;
+            margin-top: 10px;
+            border-left: 4px solid #ffc107;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            
+            .name {
+                font-size: 2em;
+            }
+            
+            .contact-info span {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <marquee>Welcome to My Resume!</marquee>
+
+    <div class="container">
+      
+        <div class="header">
+            <h1 class="name">Harshitha A V</h1>
+            <div class="contact-info">
+                <span>📞 +91 8310935528</span>
+                <span>✉️ avharshitha@607gmail.com</span>
+                <span>📍 Karnataka, India</span>
+                <span>🔗 <a href="https://www.linkedin.com/in/harshitha-av-256a1727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="section-content">
+                <p>Motivated Computer Science and Engineering student with a strong foundation in <strong>Java programming</strong> and <strong>web technologies</strong>. Eager to apply technical skills in a professional environment, with a proven track record of academic excellence and a passion for building scalable software solutions.</p>
+            </div>
+        </div>
+
+       
+        <div class="section">
+            <h2 class="section-title">Technical Stack</h2>
+            <div class="section-content">
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <strong>Languages</strong><br>
+                        Java, HTML
+                    </div>
+                    <div class="tech-item">
+                        <strong>Tools</strong><br>
+                        VS Code, Notepad++
+                    </div>
+                    <div class="tech-item">
+                        <strong>Soft Skills</strong><br>
+                        Communication<br>
+                        Time Management<br>
+                        Team Collaboration
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Academic Qualifications</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <div class="item-title">Government Engineering College, Challakere</div>
+                    <div class="item-date">Bachelor of Engineering in Computer Science | Expected 12/2026</div>
+                    <div class="item-details">
+                        <strong>GPA: 8.85/10</strong>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="item-title">Government P U College for Boys, Arsikere</div>
+                    <div class="item-date">Pre-University Course (Science - PCMB) | 12/2022</div>
+                </div>
+                <div class="education-item">
+                    <div class="item-title">Minorities Morarji Desai Model Residential School, Theguru</div>
+                    <div class="item-date">SSLC | 12/2020</div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <div class="project-item">
+                    <div class="item-title">Major Project: "Bye or Stay? Predicting Customer Goodbyes in Telecom with ML"</div>
+                    <ul class="item-details">
+                        <li>Integrated Machine Learning techniques into CRM systems to analyze vast volumes of customer data and uncover hidden patterns.</li>
+                        <li>Utilized algorithms such as <strong>Support Vector Machines (SVM)</strong> and <strong>Random Forests</strong> for predictive analytics.</li>
+                        <li>Developed proactive retention strategies by forecasting customer behavior and identifying churn risks.</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <div class="item-title">Mini Project: "Comprehensive Web Application for House Building"</div>
+                    <ul class="item-details">
+                        <li>Developed an all-in-one platform to simplify the homebuilding and design process for homeowners, contractors, and suppliers.</li>
+                        <li>Integrated essential services including a site finder for available plots, a network of trusted contractors, and a curated marketplace for furniture and appliances.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Training & Certifications</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <div class="item-title">Soft Skills Training: Seventh Sense Company</div>
+                    <div class="item-details">
+                        Covered resume building, communication skills, mock interviews, and technical interview strategies.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="section">
+            <h2 class="section-title">Achievements</h2>
+            <div class="section-content">
+                <div class="achievement">
+                    <strong>Participant: Tata Crucible Campus Quiz 2024</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
